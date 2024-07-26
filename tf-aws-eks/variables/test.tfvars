@@ -1,7 +1,7 @@
-aws_region = "us-east-1"
-aws_account_id = "503382476502"
-backend_jenkins_bucket = "jenkins-terraform-state-7001"
-backend_jenkins_bucket_key = "jenkins/terraform.tfstate"
+aws_region = "ap-south-1"
+aws_account_id = "100246540946"
+backend_jenkins_bucket = "terraform"
+backend_jenkins_bucket_key = "eks/terraform.tfstate"
 vpc_name       = "jenkins-vpc"
 vpc_cidr       = "10.0.0.0/16"
 public_subnets = ["10.0.1.0/24"]
